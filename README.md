@@ -39,3 +39,5 @@ docker compose up
 5. In the "Pipeline" section, pick the "pipeline script from SCM". Under that pick "Git" as your SCM and enter the git repo you want to be connected with in the "repositoriy URL".
 If the repo is public you can leave the "credentials" as none. Dont forget to save.
 ![step 5 - configure SCM](images/configure_SCM.PNG)
+
+test
