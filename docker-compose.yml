@@ -1,10 +1,10 @@
 version: "1.0"
 services:
-  jenkins-docker-python:
+  jenkins:
     build: .
     privileged: true
     user: root
     ports:
      - 8080:8080
      - 50000:50000
-    container_name: jenkins-docker-python
+    container_name: jenkins

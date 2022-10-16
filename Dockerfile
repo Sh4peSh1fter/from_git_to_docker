@@ -1,5 +1,7 @@
 FROM jenkins/jenkins:lts-jdk11
+MAINTAINER sean_s
+
 USER root
-RUN mkdir /from_git_to_docker
-WORKDIR /from_git_to_docker
-RUN pwd
+
+RUN apt-get update && \
+    apt-get -y install python3
